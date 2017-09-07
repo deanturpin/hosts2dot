@@ -1,22 +1,31 @@
 #!/bin/bash
 
-echo sniffnet
+echo "graph {"
 
-hosts=(github.com 10.226.0.1)
+hosts=(github.com 10.226.0.1 google.com twitter.com)
 
 for host in ${hosts[@]}; do
 
-  echo -e "\ntracepath $host"
+  # echo -e "\ntracepath $host"
 
   # Run tracepath for each host, skipping the first few uninteresting lines
-  mapfile hops < <(tracepath -n -m 8 $host | tail -n +3)
+  mapfile hops < <(tracepath -n $host | tail -n +3)
 
-  ips=("me")
+  ips=()
 
   for hop in "${hops[@]}"; do
-    # echo -ne "\t$hop"
 
     # Extract the IP
-    [[ $hop =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]] && echo $BASH_REMATCH
+    [[ $hop =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]] && ips+=($BASH_REMATCH)
   done;
+
+  # Print the connections
+  echo -ne "\t\"soy-yo\""
+  for ip in ${ips[@]}; do
+    echo -n " -- \"$ip\""
+  done
+  echo " // $host"
+
 done
+
+echo "}"
