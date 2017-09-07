@@ -8,7 +8,8 @@ for host in ${hosts[@]}; do
 
   echo -e "\ntracepath $host"
 
-  mapfile hops < <(tracepath -n -m 3 $host)
+  # Run tracepath for each host, skipping the first few uninteresting lines
+  mapfile hops < <(tracepath -n -m 8 $host | tail -n +3)
 
   ips=("me")
 
@@ -16,6 +17,6 @@ for host in ${hosts[@]}; do
     # echo -ne "\t$hop"
 
     # Extract the IP
-    [[ $hop =~ [0-9]{1,3}\.[0-9]{1,3} ]] && echo $BASH_REMATCH
+    [[ $hop =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]] && echo $BASH_REMATCH
   done;
 done
