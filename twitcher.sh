@@ -5,7 +5,7 @@
 cat <<!
 strict graph {
 
-  node [shape=rectangle style=filled]
+  node [shape=rectangle style=filled fontname=helvetica]
   "soy yo" [fillcolor=green shape=oval fontcolor=white]
 
 !
