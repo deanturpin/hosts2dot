@@ -6,14 +6,14 @@ cat <<!
 strict graph {
 
   node [shape=rectangle style=filled]
-  "soy-yo" [fillcolor=green shape=oval fontcolor=white]
+  "soy yo" [fillcolor=green shape=oval fontcolor=white]
 
 !
 
 for host in $@; do
 
   # Run tracepath for each host, skipping the first few uninteresting lines
-  mapfile hops < <(tracepath -n $host | tail -n +3)
+  mapfile hops < <(traceroute -n $host | tail -n +2 | cut -d' ' -f4)
 
   ips=()
 
@@ -24,12 +24,12 @@ for host in $@; do
   done;
 
   # Print the connections
-  echo -ne "\t\"soy-yo\""
+  echo -ne "\t\"soy yo\""
   for ip in ${ips[@]}; do
     echo -n " -- \"$ip\""
   done
   echo " -- \"$host\""
-  echo "\"$host\" [fillcolor=orange shape=oval]"
+  echo -e "\t\"$host\" [fillcolor=orange shape=oval fontcolor=white]"
 
 done
 
