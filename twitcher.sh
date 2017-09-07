@@ -2,7 +2,13 @@
 
 [[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit  
 
-echo "strict graph {"
+cat <<!
+strict graph {
+
+  node [shape=rectangle style=filled]
+  "soy-yo" [fillcolor=green shape=oval fontcolor=white]
+
+!
 
 for host in $@; do
 
@@ -22,7 +28,7 @@ for host in $@; do
   for ip in ${ips[@]}; do
     echo -n " -- \"$ip\""
   done
-  echo " // $host"
+  echo " -- \"$host\" [fillcolor=orange shape=oval]"
 
 done
 
