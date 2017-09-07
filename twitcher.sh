@@ -4,11 +4,7 @@
 
 echo "strict graph {"
 
-hosts=(github.com 10.226.0.1 google.com twitter.com)
-
 for host in $@; do
-
-  # echo -e "\ntracepath $host"
 
   # Run tracepath for each host, skipping the first few uninteresting lines
   mapfile hops < <(tracepath -n $host | tail -n +3)
