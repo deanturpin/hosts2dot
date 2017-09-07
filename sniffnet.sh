@@ -2,7 +2,7 @@
 
 [[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit  
 
-echo "graph {"
+echo "strict graph {"
 
 hosts=(github.com 10.226.0.1 google.com twitter.com)
 
