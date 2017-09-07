@@ -26,9 +26,9 @@ for host in $@; do
   # Print the connections
   echo -ne "\t\"soy yo\""
   for ip in ${ips[@]}; do
-    echo -n " -- \"$ip\""
+    echo -n "--\"$ip\""
   done
-  echo " -- \"$host\""
+  echo "--\"$host\""
   echo -e "\t\"$host\" [fillcolor=orange shape=oval fontcolor=white]"
 
 done
