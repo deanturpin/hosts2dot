@@ -1,4 +1,3 @@
-# Build example
 ```bash
 $ make clean
 $ make
