@@ -1,10 +1,12 @@
 #!/bin/bash
 
+[[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit  
+
 echo "graph {"
 
 hosts=(github.com 10.226.0.1 google.com twitter.com)
 
-for host in ${hosts[@]}; do
+for host in $@; do
 
   # echo -e "\ntracepath $host"
 
