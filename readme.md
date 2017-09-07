@@ -1,5 +1,6 @@
 # Build example
 ```bash
+$ make clean
 $ make
 ./sniffnet.sh google.com github.com | tee example.dot
 strict graph {

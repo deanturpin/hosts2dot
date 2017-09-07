@@ -1,7 +1,10 @@
 all: example.svg
 
 example.dot:
-	./sniffnet.sh google.com github.com | tee $@
+	./twitcher.sh google.com github.com | tee $@
 
 %.svg:%.dot
 	dot -T svg $< > $@
+
+clean:
+	rm -f example.dot example.svg
