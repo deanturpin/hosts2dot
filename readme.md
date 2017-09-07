@@ -1,3 +1,7 @@
+For each host supplied (see [makefile](makefile)) the script runs
+```traceroute```, extracts the IP for each hop and constructs a dot file. The
+dot renderer is then run to create an SVG.
+
 The example is generating on my laptop using my iPhone as a tether.
 
 ```bash
