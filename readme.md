@@ -6,6 +6,7 @@ This example is generated on my laptop using my iPhone as a tether.
 
 ![](example.svg)
 
+Build
 ```bash
 $ make clean
 $ make
