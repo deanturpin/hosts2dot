@@ -28,7 +28,8 @@ for host in $@; do
   for ip in ${ips[@]}; do
     echo -n " -- \"$ip\""
   done
-  echo " -- \"$host\" [fillcolor=orange shape=oval]"
+  echo " -- \"$host\""
+  echo "\"$host\" [fillcolor=orange shape=oval]"
 
 done
 
