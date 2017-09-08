@@ -1,7 +1,7 @@
 all: example.svg
 
-example.dot:
-	./twitcher.sh github.com silobrighton.com instagram.com monzo.com infinityfoods.coop roli.com 4.4.4.4 | tee $@
+example.dot: hosts.txt
+	./twitcher.sh `cat hosts.txt` | tee $@
 
 %.svg:%.dot
 	dot -T svg $< > $@
