@@ -10,7 +10,7 @@ Build
 ```bash
 $ make clean
 $ make
-./twitcher.sh google.com github.com twitter.com facebook.com 4.4.4.4 4.4.8.8 | tee example.dot
+./twitcher.sh github.com silobrighton.com instagram.com monzo.com infinityfoods.coop roli.com 4.4.4.4 | tee $@
 strict graph {
 
   node [shape=rectangle style=filled fontname=helvetica]
