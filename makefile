@@ -1,7 +1,7 @@
 all: example.svg
 
 example.dot:
-	./twitcher.sh google.com github.com twitter.com facebook.com 4.4.4.4 4.4.8.8 1.2.3.4 | tee $@
+	./twitcher.sh github.com silobrighton.com instagram.com monzo.com infinityfoods.coop roli.com 4.4.4.4 | tee $@
 
 %.svg:%.dot
 	dot -T svg $< > $@
