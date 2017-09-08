@@ -12,8 +12,8 @@ strict graph {
 
 # Let's see if the hosts are responding
 for host in $@; do
-  ping -c 1 -w 1 $host >& /dev/null && color=green || color=red
 
+  ping -c 1 -w 1 $host >& /dev/null && color=green || color=red
   echo "  \"$host\" [fillcolor=$color shape=oval fontcolor=white]"
 done
 
@@ -23,11 +23,11 @@ for host in $@; do
   # Run tracepath for each host, skipping the first few uninteresting lines
   mapfile hops < <(traceroute -n $host | tail -n +2 | cut -d' ' -f4)
 
+  # Clear down IP array
   ips=()
 
+  # Extract the IPs
   for hop in "${hops[@]}"; do
-
-    # Extract the IP
     [[ $hop =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]] && ips+=($BASH_REMATCH)
   done;
 
@@ -37,7 +37,6 @@ for host in $@; do
     echo -n "--\"$ip\""
   done
   echo "--\"$host\""
-
 done
 
 echo "}"
