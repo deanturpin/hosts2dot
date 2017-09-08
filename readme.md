@@ -13,21 +13,23 @@ $ make
 ./twitcher.sh google.com github.com twitter.com facebook.com 4.4.4.4 4.4.8.8 | tee example.dot
 strict graph {
 
-  node [shape=rectangle style=filled]
+  node [shape=rectangle style=filled fontname=helvetica]
   "soy yo" [fillcolor=green shape=oval fontcolor=white]
 
-	"soy yo"--"10.101.0.1"--"10.248.96.1"--"172.29.32.3"--"176.12.107.130"--"109.74.255.251"--"5.57.80.136"--"108.170.246.225"--"72.14.234.133"--"216.58.201.46"--"google.com"
-	"google.com" [fillcolor=orange shape=oval fontcolor=white]
-	"soy yo"--"10.101.0.1"--"10.248.96.1"--"172.29.32.3"--"176.12.107.130"--"109.74.255.242"--"109.74.255.81"--"4.15.136.22"--"github.com"
-	"github.com" [fillcolor=orange shape=oval fontcolor=white]
-	"soy yo"--"10.101.0.1"--"10.248.96.1"--"172.29.32.3"--"176.12.107.130"--"109.74.255.251"--"104.244.42.1"--"twitter.com"
-	"twitter.com" [fillcolor=orange shape=oval fontcolor=white]
-	"soy yo"--"10.101.0.1"--"10.248.96.1"--"172.29.32.3"--"176.12.107.130"--"109.74.255.251"--"195.66.225.121"--"157.240.34.219"--"173.252.67.75"--"facebook.com"
-	"facebook.com" [fillcolor=orange shape=oval fontcolor=white]
-	"soy yo"--"10.101.0.1"--"10.248.96.1"--"172.29.32.3"--"176.12.107.130"--"109.74.255.242"--"4.4.4.4"
-	"4.4.4.4" [fillcolor=orange shape=oval fontcolor=white]
-	"soy yo"--"10.101.0.1"--"10.248.96.1"--"172.29.32.3"--"176.12.107.130"--"109.74.255.242"--"4.4.8.8"
-	"4.4.8.8" [fillcolor=orange shape=oval fontcolor=white]
+  "github.com" [fillcolor=green shape=oval fontcolor=white]
+  "silobrighton.com" [fillcolor=red shape=oval fontcolor=white]
+  "instagram.com" [fillcolor=green shape=oval fontcolor=white]
+  "monzo.com" [fillcolor=green shape=oval fontcolor=white]
+  "infinityfoods.coop" [fillcolor=green shape=oval fontcolor=white]
+  "roli.com" [fillcolor=red shape=oval fontcolor=white]
+  "4.4.4.4" [fillcolor=red shape=oval fontcolor=white]
+  "soy yo"--"192.168.0.1"--"84.38.37.34"--"4.53.116.102"--"192.30.253.113"--"github.com"
+  "soy yo"--"192.168.0.1"--"84.38.37.34"--"5.57.80.32"--"37.209.223.9"--"37.209.223.45"--"silobrighton.com"
+  "soy yo"--"192.168.0.1"--"84.38.37.34"--"4.79.22.74"--"54.239.110.195"--"instagram.com"
+  "soy yo"--"192.168.0.1"--"84.38.37.34"--"2.127.241.137"--"104.25.212.99"--"monzo.com"
+  "soy yo"--"192.168.0.1"--"84.38.37.34"--"5.57.80.240"--"80.88.212.56"--"80.88.202.138"--"37.200.112.58"--"213.129.95.153"--"37.200.112.61"--"infinityfoods.coop"
+  "soy yo"--"192.168.0.1"--"84.38.37.34"--"83.231.221.45"--"129.250.4.23"--"129.250.2.18"--"129.250.4.13"--"129.250.2.8"--"129.250.5.86"--"roli.com"
+  "soy yo"--"192.168.0.1"--"84.38.37.34"--"4.4.4.4"
 }
 dot -T svg example.dot > example.svg
 ```
