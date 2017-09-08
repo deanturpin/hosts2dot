@@ -10,6 +10,14 @@ strict graph {
 
 !
 
+# Let's see if the hosts are responding
+for host in $@; do
+  ping -c 1 -w 1 $host >& /dev/null && color=green || color=red
+
+  echo "  \"$host\" [fillcolor=$color shape=oval fontcolor=white]"
+done
+
+# Trace some routes and generate the dot links
 for host in $@; do
 
   # Run tracepath for each host, skipping the first few uninteresting lines
@@ -24,12 +32,11 @@ for host in $@; do
   done;
 
   # Print the connections
-  echo -ne "\t\"soy yo\""
+  echo -ne "  \"soy yo\""
   for ip in ${ips[@]}; do
     echo -n "--\"$ip\""
   done
   echo "--\"$host\""
-  echo -e "\t\"$host\" [fillcolor=orange shape=oval fontcolor=white]"
 
 done
 
