@@ -3,7 +3,8 @@ For each host supplied (see [makefile](makefile)) the script runs
 dot renderer is then run by ```make``` to create the SVG.
 
 You can run it on the command line by passing a list of hosts. But I just run
-it as a Jenkins nightly.
+it as a Jenkins nightly, the full list of hosts is stored in ```hosts.txt```
+which is expanded by make.
 
 ```bash
 ./twitcher.sh github.com silobrighton.com
