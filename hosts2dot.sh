@@ -2,11 +2,14 @@
 
 [[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit  
 
+# Who am I?
+readonly myip=$(hostname -I)
+
 cat <<!
 strict graph {
 
   node [shape=rectangle style=filled fontname=helvetica]
-  "soy yo" [fillcolor=green shape=oval fontcolor=white]
+  "soy yo" [label="$myip" fillcolor=green shape=oval fontcolor=white]
 
 !
 
