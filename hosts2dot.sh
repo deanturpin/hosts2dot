@@ -3,7 +3,7 @@
 [[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit  
 
 # Who am I?
-readonly myip=$(hostname -I)
+readonly myip=$(hostname -I | cut -d' ' -f1)
 
 cat <<!
 strict graph {
