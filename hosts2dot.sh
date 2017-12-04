@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit  
+[[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit
 
 # Who am I?
 readonly myip=$(hostname -I | cut -d' ' -f1)
@@ -23,20 +23,17 @@ done
 # Trace some routes and generate the dot links
 for host in $@; do
 
-  # Run tracepath for each host, skipping the first few uninteresting lines
-  mapfile hops < <(traceroute -n $host | tail -n +2 | cut -d' ' -f4)
-
   # Clear down IP array
-  ips=()
+  ip_addresses=()
 
-  # Extract the IPs
-  for hop in "${hops[@]}"; do
-    [[ $hop =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]] && ips+=($BASH_REMATCH)
-  done;
+  # Match IPs in the traceroute output, the first two lines aren't interesting
+  while read line; do
+    [[ $line =~ ([^*\ ]+)\ +\(([0-9\.]+)\) ]] && ip_addresses+=(${BASH_REMATCH[1]})
+  done < <(traceroute $host | tail -n +2)
 
   # Print the connections
   echo -ne "  \"soy yo\""
-  for ip in ${ips[@]}; do
+  for ip in ${ip_addresses[@]}; do
     echo -n "--\"$ip\""
   done
   echo "--\"$host\""
