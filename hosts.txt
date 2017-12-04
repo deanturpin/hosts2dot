@@ -1,4 +1,6 @@
 google.com
+google.co.uk
+google.co.in
 deanturpin.github.io
 github.com
 silobrighton.com
