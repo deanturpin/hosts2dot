@@ -26,9 +26,9 @@ for host in $@; do
   # Clear down IP array
   ip_addresses=()
 
-  # Match IPs in the traceroute output
+  # Match IPs in the traceroute output, the first two lines aren't interesting
   while read line; do
-    [[ $line =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]] && ip_addresses+=($BASH_REMATCH)
+    [[ $line =~ ([^*\ ]+)\ +\(([0-9\.]+)\) ]] && ip_addresses+=(${BASH_REMATCH[1]})
   done < <(traceroute $host | tail -n +2)
 
   # Print the connections
