@@ -5,8 +5,10 @@
 cat <<!
 strict graph {
 
+fontname=helvetica
 node [shape=rectangle style=filled fontname=helvetica]
 soy_yo [label="$(hostname) (soy yo)" fillcolor=orange fontcolor=white]
+graph [label="$0 - $(date)" labelloc=top labeljust=left]
 !
 
 # Let's see if the hosts are responding
