@@ -1,39 +1,38 @@
 #!/bin/bash
 
-[[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit
+[[ $# == 0 ]] && printf 'Usage: <list of hosts/IPs>\n' && exit
 
 cat <<!
 strict graph {
 
-  node [shape=rectangle style=filled fontname=helvetica]
-  "soy yo" [label="$(hostname) (soy yo)" fillcolor=orange shape=oval fontcolor=white]
-
+node [shape=rectangle style=filled fontname=helvetica]
+soy_yo [label="$(hostname) (soy yo)" fillcolor=orange fontcolor=white]
 !
 
 # Let's see if the hosts are responding
+printf "\n// hosts\n"
 for host in $@; do
 
   ping -c 1 -w 1 $host >& /dev/null && color=green || color=red
-  echo "  \"$host\" [fillcolor=$color shape=oval fontcolor=white]"
+  printf "\"$host\" [fillcolor=$color shape=oval fontcolor=white]\n"
 done
 
 # Trace some routes and generate the dot links
+printf "\n// routes\n"
 for host in $@; do
 
   # Clear down IP array
-  ip_addresses=()
+  ip_addr=()
 
   # Match IPs in the traceroute output, the first two lines aren't interesting
   while read line; do
-    [[ $line =~ ([^*\ ]+)\ +\(([0-9\.]+)\) ]] && ip_addresses+=(${BASH_REMATCH[1]})
+    [[ $line =~ ([^*\ ]+)\ +\(([0-9\.]+)\) ]] && ip_addr+=(${BASH_REMATCH[1]})
   done < <(traceroute $host | tail -n +2)
 
   # Print the connections
-  echo -ne "  \"soy yo\""
-  for ip in ${ip_addresses[@]}; do
-    echo -n "--\"$ip\""
-  done
-  echo "--\"$host\""
+  printf soy_yo--
+  printf \"%s\"-- ${ip_addr[@]}
+  printf \"$host\"\\n
 done
 
-echo "}"
+printf "}\n"
