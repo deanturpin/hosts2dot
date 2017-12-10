@@ -34,7 +34,7 @@ for host in $@; do
   done
 
   # Print the end point
-  echo \"$host\"\
+  echo \"$host\"
 
 done
 
