@@ -2,6 +2,9 @@
 
 [[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit
 
+readonly hosts=$@
+
+# Print the beginning of the dot file
 cat <<!
 strict graph {
 fontname=helvetica
@@ -19,7 +22,7 @@ done
 
 # Trace some routes and generate the dot links
 echo // routes
-for host in $@; do
+for host in $hosts; do
   # Print the start point (me)
   echo -n soy_yo--
 
@@ -34,4 +37,5 @@ for host in $@; do
   echo \"$host\"
 done
 
+# Complete the dot file
 echo }
