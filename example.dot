@@ -1,33 +1,22 @@
 strict graph {
-
 fontname=helvetica
-node [shape=rectangle style=filled fontname=helvetica]
+node [style=filled color=white fillcolor=white fontname=helvetica]
 soy_yo [label="dev (soy yo)" fillcolor=orange fontcolor=white]
-graph [label="./hosts2dot.sh - Wed  6 Dec 13:50:07 GMT 2017" labelloc=top labeljust=left]
-
+graph [label="./hosts2dot.sh - Mon 11 Dec 12:05:42 GMT 2017" labelloc=top labeljust=left]
 // hosts
-"google.co.uk" [fillcolor=green shape=oval fontcolor=white]
-"youtube.com" [fillcolor=green shape=oval fontcolor=white]
-"deanturpin.github.io" [fillcolor=green shape=oval fontcolor=white]
-"github.com" [fillcolor=green shape=oval fontcolor=white]
-"thebunker.net" [fillcolor=green shape=oval fontcolor=white]
-"infinityfoods.coop" [fillcolor=green shape=oval fontcolor=white]
-"morningstar.co.uk" [fillcolor=red shape=oval fontcolor=white]
-"sky.com" [fillcolor=red shape=oval fontcolor=white]
-"la-cave.co.uk" [fillcolor=red shape=oval fontcolor=white]
-"64degrees.co.uk" [fillcolor=green shape=oval fontcolor=white]
-"chillifrog.co" [fillcolor=green shape=oval fontcolor=white]
-
+"google.co.uk" [fillcolor=green fontcolor=white]
+"youtube.com" [fillcolor=green fontcolor=white]
+"deanturpin.github.io" [fillcolor=green fontcolor=white]
+"github.com" [fillcolor=green fontcolor=white]
+"thebunker.net" [fillcolor=green fontcolor=white]
+"infinityfoods.coop" [fillcolor=green fontcolor=white]
+"kraydel.com" [fillcolor=green fontcolor=white]
 // routes
-soy_yo--"gateway"--"10.248.28.145"--"10.247.84.25"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"87.237.20.36"--"74.125.52.218"--"108.170.246.193"--"108.170.238.151"--"lhr35s06-in-f99.1e100.net"--"google.co.uk"
-soy_yo--"gateway"--"10.248.28.145"--"10.247.84.25"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"87.237.20.36"--"74.125.52.218"--"108.170.246.225"--"108.170.235.107"--"lhr35s02-in-f14.1e100.net"--"youtube.com"
-soy_yo--"gateway"--"10.248.28.153"--"10.247.84.27"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"ae-25.r00.londen10.uk.bb.gin.ntt.net"--"deanturpin.github.io"
-soy_yo--"gateway"--"10.248.28.145"--"10.247.84.25"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"ae-3.r24.londen12.uk.bb.gin.ntt.net"--"ae-5.r24.nycmny01.us.bb.gin.ntt.net"--"ae-1.r25.nycmny01.us.bb.gin.ntt.net"--"ae-9.r22.asbnva02.us.bb.gin.ntt.net"--"ae-1.r05.asbnva02.us.bb.gin.ntt.net"--"ae-0.a01.asbnva02.us.bb.gin.ntt.net"--"xe-0-0-24-1.a03.asbnva02.us.ce.gin.ntt.net"--"lb-192-30-253-112-iad.github.com"--"github.com"
-soy_yo--"gateway"--"10.248.28.145"--"10.247.84.25"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"ip-185-10-15-249.thebunker.net"--"ip-185-10-15-250.thebunker.net"--"eth4-1.thn-bgp-2.thn.core.thebunker.net"--"tengeth2-1.thn-bgp-1.thn.core.thebunker.net"--"tengeth2-2.ash-bgp-2.ash.core.thebunker.net"--"eth2-2.ash-pe-2.ash.core.thebunker.net"--"thebunker.net"
-soy_yo--"gateway"--"10.248.28.145"--"10.247.84.25"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"213.129.70.253"--"213.129.70.237"--"infinityfoods.coop"
-soy_yo--"gateway"--"10.248.28.153"--"10.247.84.27"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"linx.ae4-irt1.lon37.uk.as13237.net"--"84.207.244.126.not-updated.eunx.net"--"morningstar.co.uk"
-soy_yo--"gateway"--"10.248.28.153"--"10.247.84.27"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"027ff198.bb.sky.com"--"sky.com"
-soy_yo--"gateway"--"10.248.28.145"--"10.247.84.25"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"the-linx.as29550.net"--"la-cave.co.uk"
-soy_yo--"gateway"--"10.248.28.145"--"10.247.84.25"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"linx-lon1.as13335.net"--"104.31.94.107"--"64degrees.co.uk"
-soy_yo--"gateway"--"10.248.28.153"--"10.247.84.27"--"10.247.84.6"--"10.247.84.9"--"10.247.84.18"--"87.237.20.224"--"87.237.20.73"--"87.237.20.36"--"74.125.52.218"--"108.170.246.226"--"209.85.250.91"--"216.239.42.77"--"209.85.250.8"--"209.85.143.103"--"216.239.41.67"--"147.62.236.23.bc.googleusercontent.com"--"chillifrog.co"
+soy_yo--"gateway"--"gateway"--"10.124.203.181"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"google.co.uk"
+soy_yo--"gateway"--"gateway"--"10.124.203.177"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"youtube.com"
+soy_yo--"gateway"--"gateway"--"10.124.203.177"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"ae-11.r04.londen12.uk.bb.gin.ntt.net"--"151.101.17.147"--"deanturpin.github.io"
+soy_yo--"gateway"--"gateway"--"10.124.203.177"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"ae-3.r24.londen12.uk.bb.gin.ntt.net"--"ae-5.r24.nycmny01.us.bb.gin.ntt.net"--"ae-1.r25.nycmny01.us.bb.gin.ntt.net"--"ae-9.r22.asbnva02.us.bb.gin.ntt.net"--"ae-7.r06.asbnva02.us.bb.gin.ntt.net"--"ae-1.a01.asbnva02.us.bb.gin.ntt.net"--"github.com"
+soy_yo--"gateway"--"gateway"--"10.124.203.181"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"ash-gslb-1-gw.eth1-36.ash-pe-2.thebunker.net"--"thebunker.net"
+soy_yo--"gateway"--"gateway"--"10.124.203.181"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"213.129.70.253"--"213.129.70.237"--"infinityfoods.coop"
+soy_yo--"gateway"--"gateway"--"10.124.203.177"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"bbr01.lon01.networklayer.com"--"ae5.cbs02.tg01.lon01.networklayer.com"--"c3.13.2da9.ip4.static.sl-reverse.com"--"77.76.32a9.ip4.static.sl-reverse.com"--"kraydel.com"
 }
