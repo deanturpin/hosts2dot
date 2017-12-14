@@ -1,9 +1,5 @@
 #!/bin/bash
 
-[[ $# == 0 ]] && echo 'Usage: <list of hosts/IPs>' && exit
-
-readonly hosts=$@
-
 # Print the beginning of the dot file
 cat <<!
 strict graph {
@@ -14,7 +10,7 @@ graph [label="$0 - $(date)" labelloc=top labeljust=left]
 !
 
 # Trace some routes and generate the dot links
-for host in $hosts; do
+while read host; do
 
   # Is the host responding?
   ping -w 1 -c 1 $host >& /dev/null && color=green || color=red

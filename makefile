@@ -1,7 +1,7 @@
 all: example.svg
 
-example.dot: hosts.txt
-	./hosts2dot.sh `cat hosts.txt` | tee $@
+example.dot: hosts
+	./hosts2dot.sh < hosts | tee $@
 
 %.svg: %.dot
 	dot -T svg $< > $@
