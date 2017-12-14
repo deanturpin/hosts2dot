@@ -10,13 +10,18 @@ graph [label="$0 - $(date)" labelloc=top labeljust=left]
 !
 
 # Trace some routes and generate the dot links
-while read host; do
+while read line; do
+
+  host=${line/\ *}
+  comment=${line/*\#}
+  full_name=\"$line\"
 
   # Is the host responding?
   ping -w 1 -c 1 $host >& /dev/null && color=green || color=red
-  echo \"$host\" [fillcolor=$color fontcolor=white]
+  echo $full_name [fillcolor=$color fontcolor=white]
 
   # Print the start point (me)
+  echo // $line
   echo -n soy_yo--
 
   # Print the route
@@ -27,7 +32,7 @@ while read host; do
   done
 
   # Print the end point
-  echo \"$host\"
+  echo $full_name
 done
 
 # Complete the dot file
