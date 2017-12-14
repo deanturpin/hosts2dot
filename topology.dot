@@ -2,19 +2,19 @@ strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
 soy_yo [label="dev (soy yo)"]
-graph [label="./hosts2dot.sh - Thu 14 Dec 13:09:24 GMT 2017" labelloc=top labeljust=left]
+graph [label="./hosts2dot.sh - Thu 14 Dec 13:50:27 GMT 2017" labelloc=top labeljust=left]
 "google.co.uk" [fillcolor=green fontcolor=white]
-soy_yo--"gateway"--"gateway"--"10.248.28.145"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"google.co.uk"
+soy_yo--"gateway"--"gateway"--"10.248.28.153"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.224"--"87.237.20.73"--"google.co.uk"
 "youtube.com" [fillcolor=green fontcolor=white]
-soy_yo--"gateway"--"gateway"--"10.248.28.153"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"youtube.com"
+soy_yo--"gateway"--"gateway"--"10.248.28.145"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"youtube.com"
 "deanturpin.github.io" [fillcolor=green fontcolor=white]
-soy_yo--"gateway"--"gateway"--"10.248.28.153"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"ae-25.r00.londen10.uk.bb.gin.ntt.net"--"151.101.17.147"--"deanturpin.github.io"
+soy_yo--"gateway"--"gateway"--"10.248.28.153"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"80.150.170.106"--"151.101.17.147"--"deanturpin.github.io"
 "github.com" [fillcolor=green fontcolor=white]
-soy_yo--"gateway"--"gateway"--"10.248.28.145"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"ae-3.r24.londen12.uk.bb.gin.ntt.net"--"ae-5.r24.nycmny01.us.bb.gin.ntt.net"--"ae-1.r25.nycmny01.us.bb.gin.ntt.net"--"ae-9.r22.asbnva02.us.bb.gin.ntt.net"--"ae-1.r05.asbnva02.us.bb.gin.ntt.net"--"ae-0.a03.asbnva02.us.bb.gin.ntt.net"--"github.com"
+soy_yo--"gateway"--"gateway"--"10.248.28.153"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"80.150.169.13"--"80.150.170.106"--"80.150.170.106"--"ae-3.r24.londen12.uk.bb.gin.ntt.net"--"ae-5.r24.nycmny01.us.bb.gin.ntt.net"--"ae-1.r25.nycmny01.us.bb.gin.ntt.net"--"ae-9.r22.asbnva02.us.bb.gin.ntt.net"--"ae-1.r05.asbnva02.us.bb.gin.ntt.net"--"ae-0.a03.asbnva02.us.bb.gin.ntt.net"--"github.com"
 "thebunker.net" [fillcolor=green fontcolor=white]
-soy_yo--"gateway"--"gateway"--"10.248.28.145"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"ash-gslb-1-gw.eth1-36.ash-pe-2.thebunker.net"--"thebunker.net"
+soy_yo--"gateway"--"gateway"--"10.248.28.145"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"ash-gslb-1-gw.eth1-36.ash-pe-2.thebunker.net"--"thebunker.net"
 "infinityfoods.coop" [fillcolor=green fontcolor=white]
-soy_yo--"gateway"--"gateway"--"10.248.28.145"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"87.237.20.73"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"213.129.70.253"--"213.129.70.237"--"infinityfoods.coop"
+soy_yo--"gateway"--"gateway"--"10.248.28.145"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"87.237.20.33"--"linx1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"213.129.70.253"--"213.129.70.237"--"infinityfoods.coop"
 "kraydel.com" [fillcolor=green fontcolor=white]
 soy_yo--"gateway"--"gateway"--"10.248.28.153"--"10.247.84.6"--"10.247.84.9"--"87.237.20.224"--"87.237.20.73"--"bbr01.lon01.networklayer.com"--"c1.13.2da9.ip4.static.sl-reverse.com"--"7b.76.32a9.ip4.static.sl-reverse.com"--"kraydel.com"
 }
