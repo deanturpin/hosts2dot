@@ -10,11 +10,11 @@ $ make
 View the SVG in a web browser
 ```bash
 
-$ firefox example.svg
+$ firefox topology.svg
 ```
 ![](example.svg)
 
-Test it with a single host using the triple chevron.
+Test it with a single host using the triple chevron syntax.
 ```bash
 $ ./hosts2dot.sh <<< github.com
 ```
