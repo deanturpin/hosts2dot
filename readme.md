@@ -18,9 +18,9 @@ Test it with a single host using the triple chevron syntax.
 $ ./hosts2dot.sh <<< github.com
 ```
 
-## Hosts file
-You can use a standard system hosts file but the script only extracts the host
-or IP before the first space. The whole line is used to name each leaf node. In
+## Hosts file format
+You can use a standard system hosts file but the script only uses the first
+host or IP on the line. The whole line is used to name each leaf node. In
 fact any format can be used as long as each line begins with something that can
 be pinged.
 
