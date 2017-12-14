@@ -8,14 +8,15 @@ readonly hosts=$@
 cat <<!
 strict graph {
 fontname=helvetica
-node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey]
+node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
 soy_yo [label="$(hostname) (soy yo)"]
 graph [label="$0 - $(date)" labelloc=top labeljust=left]
 !
 
 # Trace some routes and generate the dot links
 for host in $hosts; do
-  # See if the host is responding
+
+  # Is the host responding?
   ping -w 1 -c 1 $host >& /dev/null && color=green || color=red
   echo \"$host\" [fillcolor=$color fontcolor=white]
 
