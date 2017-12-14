@@ -12,7 +12,7 @@ View the SVG in a web browser
 
 $ firefox topology.svg
 ```
-![](example.svg)
+![](topology.svg)
 
 Test it with a single host using the triple chevron syntax.
 ```bash
