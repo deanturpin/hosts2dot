@@ -18,7 +18,7 @@ Test it with a single host using the triple chevron syntax.
 $ ./hosts2dot.sh <<< github.com
 ```
 
-## Hosts file format
+# Hosts file format
 You can use a standard system hosts file but the script only uses the first
 host or IP on the line. The whole line is used to name each leaf node. In
 fact any format can be used as long as each line begins with something that can
@@ -28,3 +28,6 @@ be pinged.
 127.0.0.1 localhost # for local people
 216.58.213.99 - google
 ```
+
+At work I run it as a Jenkins nightly and the hosts file is a list of things I'm
+interested in on the company Intranet.
