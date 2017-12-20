@@ -1,10 +1,8 @@
 all: topology.svg
 
-topology.dot: hosts
+.PHONY: topology.dot
+topology.dot:
 	./hosts2dot.sh < hosts | tee $@
 
 %.svg: %.dot
 	dot -T svg $< > $@
-
-clean:
-	rm -f topology.dot topology.svg

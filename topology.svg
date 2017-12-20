@@ -9,7 +9,7 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1143)">
 <title>%3</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-1143 1379.5,-1143 1379.5,4 -4,4"/>
-<text text-anchor="middle" x="155.5" y="-1123.8" font-family="Helvetica,sans-Serif" font-size="14.00">./hosts2dot.sh &#45; Mon 18 Dec 12:47:26 GMT 2017</text>
+<text text-anchor="middle" x="156.5" y="-1123.8" font-family="Helvetica,sans-Serif" font-size="14.00">./hosts2dot.sh &#45; Wed 20 Dec 10:47:55 GMT 2017</text>
 <!-- soy_yo -->
 <g id="node1" class="node"><title>soy_yo</title>
 <path fill="lightgrey" stroke="white" d="M669.5,-1116C669.5,-1116 639.5,-1116 639.5,-1116 633.5,-1116 627.5,-1110 627.5,-1104 627.5,-1104 627.5,-1092 627.5,-1092 627.5,-1086 633.5,-1080 639.5,-1080 639.5,-1080 669.5,-1080 669.5,-1080 675.5,-1080 681.5,-1086 681.5,-1092 681.5,-1092 681.5,-1104 681.5,-1104 681.5,-1110 675.5,-1116 669.5,-1116"/>
@@ -51,22 +51,22 @@
 <g id="edge4" class="edge"><title>gateway&#45;&#45;gateway</title>
 <path fill="none" stroke="black" d="M757.181,-1039.47C767.202,-1039.07 775,-1034.58 775,-1026 775,-1017.42 767.202,-1012.93 757.181,-1012.53"/>
 </g>
-<!-- 10.248.28.153 -->
-<g id="node6" class="node"><title>10.248.28.153</title>
-<path fill="lightgrey" stroke="white" d="M763,-972C763,-972 684,-972 684,-972 678,-972 672,-966 672,-960 672,-960 672,-948 672,-948 672,-942 678,-936 684,-936 684,-936 763,-936 763,-936 769,-936 775,-942 775,-948 775,-948 775,-960 775,-960 775,-966 769,-972 763,-972"/>
-<text text-anchor="middle" x="723.5" y="-950.3" font-family="Helvetica,sans-Serif" font-size="14.00">10.248.28.153</text>
-</g>
-<!-- gateway&#45;&#45;10.248.28.153 -->
-<g id="edge5" class="edge"><title>gateway&#45;&#45;10.248.28.153</title>
-<path fill="none" stroke="black" d="M723.5,-1007.7C723.5,-996.846 723.5,-982.917 723.5,-972.104"/>
-</g>
 <!-- 10.248.28.145 -->
-<g id="node26" class="node"><title>10.248.28.145</title>
-<path fill="lightgrey" stroke="white" d="M884,-972C884,-972 805,-972 805,-972 799,-972 793,-966 793,-960 793,-960 793,-948 793,-948 793,-942 799,-936 805,-936 805,-936 884,-936 884,-936 890,-936 896,-942 896,-948 896,-948 896,-960 896,-960 896,-966 890,-972 884,-972"/>
-<text text-anchor="middle" x="844.5" y="-950.3" font-family="Helvetica,sans-Serif" font-size="14.00">10.248.28.145</text>
+<g id="node6" class="node"><title>10.248.28.145</title>
+<path fill="lightgrey" stroke="white" d="M763,-972C763,-972 684,-972 684,-972 678,-972 672,-966 672,-960 672,-960 672,-948 672,-948 672,-942 678,-936 684,-936 684,-936 763,-936 763,-936 769,-936 775,-942 775,-948 775,-948 775,-960 775,-960 775,-966 769,-972 763,-972"/>
+<text text-anchor="middle" x="723.5" y="-950.3" font-family="Helvetica,sans-Serif" font-size="14.00">10.248.28.145</text>
 </g>
 <!-- gateway&#45;&#45;10.248.28.145 -->
-<g id="edge27" class="edge"><title>gateway&#45;&#45;10.248.28.145</title>
+<g id="edge5" class="edge"><title>gateway&#45;&#45;10.248.28.145</title>
+<path fill="none" stroke="black" d="M723.5,-1007.7C723.5,-996.846 723.5,-982.917 723.5,-972.104"/>
+</g>
+<!-- 10.248.28.153 -->
+<g id="node22" class="node"><title>10.248.28.153</title>
+<path fill="lightgrey" stroke="white" d="M884,-972C884,-972 805,-972 805,-972 799,-972 793,-966 793,-960 793,-960 793,-948 793,-948 793,-942 799,-936 805,-936 805,-936 884,-936 884,-936 890,-936 896,-942 896,-948 896,-948 896,-960 896,-960 896,-966 890,-972 884,-972"/>
+<text text-anchor="middle" x="844.5" y="-950.3" font-family="Helvetica,sans-Serif" font-size="14.00">10.248.28.153</text>
+</g>
+<!-- gateway&#45;&#45;10.248.28.153 -->
+<g id="edge21" class="edge"><title>gateway&#45;&#45;10.248.28.153</title>
 <path fill="none" stroke="black" d="M753.1,-1007.88C771.85,-997.029 796.014,-983.05 814.786,-972.19"/>
 </g>
 <!-- 10.247.84.6 -->
@@ -74,13 +74,9 @@
 <path fill="lightgrey" stroke="white" d="M815.5,-900C815.5,-900 751.5,-900 751.5,-900 745.5,-900 739.5,-894 739.5,-888 739.5,-888 739.5,-876 739.5,-876 739.5,-870 745.5,-864 751.5,-864 751.5,-864 815.5,-864 815.5,-864 821.5,-864 827.5,-870 827.5,-876 827.5,-876 827.5,-888 827.5,-888 827.5,-894 821.5,-900 815.5,-900"/>
 <text text-anchor="middle" x="783.5" y="-878.3" font-family="Helvetica,sans-Serif" font-size="14.00">10.247.84.6</text>
 </g>
-<!-- 10.248.28.153&#45;&#45;10.247.84.6 -->
-<g id="edge6" class="edge"><title>10.248.28.153&#45;&#45;10.247.84.6</title>
+<!-- 10.248.28.145&#45;&#45;10.247.84.6 -->
+<g id="edge6" class="edge"><title>10.248.28.145&#45;&#45;10.247.84.6</title>
 <path fill="none" stroke="black" d="M738.331,-935.697C747.632,-924.846 759.571,-910.917 768.839,-900.104"/>
-</g>
-<!-- 10.247.84.6&#45;&#45;10.247.84.6 -->
-<g id="edge41" class="edge"><title>10.247.84.6&#45;&#45;10.247.84.6</title>
-<path fill="none" stroke="black" d="M827.524,-895.233C837.869,-894.145 845.5,-889.734 845.5,-882 845.5,-874.266 837.869,-869.855 827.524,-868.767"/>
 </g>
 <!-- 10.247.84.9 -->
 <g id="node8" class="node"><title>10.247.84.9</title>
@@ -124,7 +120,7 @@
 <text text-anchor="middle" x="708.5" y="-590.3" font-family="Helvetica,sans-Serif" font-size="14.00">74.125.52.218</text>
 </g>
 <!-- 87.237.20.73&#45;&#45;74.125.52.218 -->
-<g id="edge21" class="edge"><title>87.237.20.73&#45;&#45;74.125.52.218</title>
+<g id="edge19" class="edge"><title>87.237.20.73&#45;&#45;74.125.52.218</title>
 <path fill="none" stroke="black" d="M764.961,-647.697C753.335,-636.846 738.411,-622.917 726.826,-612.104"/>
 </g>
 <!-- 87.237.20.33 -->
@@ -133,7 +129,7 @@
 <text text-anchor="middle" x="858.5" y="-590.3" font-family="Helvetica,sans-Serif" font-size="14.00">87.237.20.33</text>
 </g>
 <!-- 87.237.20.73&#45;&#45;87.237.20.33 -->
-<g id="edge29" class="edge"><title>87.237.20.73&#45;&#45;87.237.20.33</title>
+<g id="edge27" class="edge"><title>87.237.20.73&#45;&#45;87.237.20.33</title>
 <path fill="none" stroke="black" d="M802.039,-647.697C813.665,-636.846 828.589,-622.917 840.174,-612.104"/>
 </g>
 <!-- ae1&#45;0.lon10.core&#45;backbone.com -->
@@ -142,7 +138,7 @@
 <text text-anchor="middle" x="1103.5" y="-590.3" font-family="Helvetica,sans-Serif" font-size="14.00">ae1&#45;0.lon10.core&#45;backbone.com</text>
 </g>
 <!-- 87.237.20.73&#45;&#45;ae1&#45;0.lon10.core&#45;backbone.com -->
-<g id="edge42" class="edge"><title>87.237.20.73&#45;&#45;ae1&#45;0.lon10.core&#45;backbone.com</title>
+<g id="edge40" class="edge"><title>87.237.20.73&#45;&#45;ae1&#45;0.lon10.core&#45;backbone.com</title>
 <path fill="none" stroke="black" d="M831.062,-654.596C882.336,-643.38 964.761,-625.349 1025.54,-612.054"/>
 </g>
 <!-- 80.150.170.106 -->
@@ -164,7 +160,7 @@
 <path fill="none" stroke="black" d="M309.461,-505.465C270.218,-494.388 217.464,-479.498 177.034,-468.086"/>
 </g>
 <!-- ae&#45;25.r00.londen10.uk.bb.gin.ntt.net -->
-<g id="node23" class="node"><title>ae&#45;25.r00.londen10.uk.bb.gin.ntt.net</title>
+<g id="node24" class="node"><title>ae&#45;25.r00.londen10.uk.bb.gin.ntt.net</title>
 <path fill="lightgrey" stroke="white" d="M469,-468C469,-468 260,-468 260,-468 254,-468 248,-462 248,-456 248,-456 248,-444 248,-444 248,-438 254,-432 260,-432 260,-432 469,-432 469,-432 475,-432 481,-438 481,-444 481,-444 481,-456 481,-456 481,-462 475,-468 469,-468"/>
 <text text-anchor="middle" x="364.5" y="-446.3" font-family="Helvetica,sans-Serif" font-size="14.00">ae&#45;25.r00.londen10.uk.bb.gin.ntt.net</text>
 </g>
@@ -181,17 +177,13 @@
 <g id="edge13" class="edge"><title>ae&#45;3.r24.londen12.uk.bb.gin.ntt.net&#45;&#45;ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net</title>
 <path fill="none" stroke="black" d="M116.5,-431.697C116.5,-420.846 116.5,-406.917 116.5,-396.104"/>
 </g>
-<!-- ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net -->
-<g id="edge14" class="edge"><title>ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net</title>
-<path fill="none" stroke="black" d="M233.178,-388.823C244.103,-386.6 251,-382.992 251,-378 251,-373.008 244.103,-369.4 233.178,-367.177"/>
-</g>
 <!-- ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net -->
 <g id="node15" class="node"><title>ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net</title>
 <path fill="lightgrey" stroke="white" d="M221,-324C221,-324 12,-324 12,-324 6,-324 1.42109e-14,-318 1.42109e-14,-312 1.42109e-14,-312 1.42109e-14,-300 1.42109e-14,-300 1.42109e-14,-294 6,-288 12,-288 12,-288 221,-288 221,-288 227,-288 233,-294 233,-300 233,-300 233,-312 233,-312 233,-318 227,-324 221,-324"/>
 <text text-anchor="middle" x="116.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00">ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net</text>
 </g>
 <!-- ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net -->
-<g id="edge15" class="edge"><title>ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net</title>
+<g id="edge14" class="edge"><title>ae&#45;5.r24.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net</title>
 <path fill="none" stroke="black" d="M116.5,-359.697C116.5,-348.846 116.5,-334.917 116.5,-324.104"/>
 </g>
 <!-- ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net -->
@@ -200,7 +192,7 @@
 <text text-anchor="middle" x="116.5" y="-230.3" font-family="Helvetica,sans-Serif" font-size="14.00">ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net</text>
 </g>
 <!-- ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net -->
-<g id="edge16" class="edge"><title>ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net</title>
+<g id="edge15" class="edge"><title>ae&#45;1.r25.nycmny01.us.bb.gin.ntt.net&#45;&#45;ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net</title>
 <path fill="none" stroke="black" d="M116.5,-287.697C116.5,-276.846 116.5,-262.917 116.5,-252.104"/>
 </g>
 <!-- ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net -->
@@ -209,12 +201,8 @@
 <text text-anchor="middle" x="116.5" y="-158.3" font-family="Helvetica,sans-Serif" font-size="14.00">ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net</text>
 </g>
 <!-- ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net -->
-<g id="edge17" class="edge"><title>ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net</title>
+<g id="edge16" class="edge"><title>ae&#45;9.r22.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net</title>
 <path fill="none" stroke="black" d="M116.5,-215.697C116.5,-204.846 116.5,-190.917 116.5,-180.104"/>
-</g>
-<!-- ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net -->
-<g id="edge18" class="edge"><title>ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net</title>
-<path fill="none" stroke="black" d="M231.443,-172.823C242.205,-170.6 249,-166.992 249,-162 249,-157.008 242.205,-153.4 231.443,-151.177"/>
 </g>
 <!-- ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net -->
 <g id="node18" class="node"><title>ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net</title>
@@ -222,11 +210,11 @@
 <text text-anchor="middle" x="116.5" y="-86.3" font-family="Helvetica,sans-Serif" font-size="14.00">ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net</text>
 </g>
 <!-- ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net -->
-<g id="edge19" class="edge"><title>ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net</title>
+<g id="edge17" class="edge"><title>ae&#45;1.r05.asbnva02.us.bb.gin.ntt.net&#45;&#45;ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net</title>
 <path fill="none" stroke="black" d="M116.5,-143.697C116.5,-132.846 116.5,-118.917 116.5,-108.104"/>
 </g>
 <!-- ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net&#45;&#45;192.30.253.113 &#45;&#45; github -->
-<g id="edge20" class="edge"><title>ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net&#45;&#45;192.30.253.113 &#45;&#45; github</title>
+<g id="edge18" class="edge"><title>ae&#45;0.a03.asbnva02.us.bb.gin.ntt.net&#45;&#45;192.30.253.113 &#45;&#45; github</title>
 <path fill="none" stroke="black" d="M116.5,-71.6966C116.5,-60.8463 116.5,-46.9167 116.5,-36.1043"/>
 </g>
 <!-- 216.58.213.99 google -->
@@ -235,7 +223,7 @@
 <text text-anchor="middle" x="537.5" y="-518.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="white">216.58.213.99 google</text>
 </g>
 <!-- 74.125.52.218&#45;&#45;216.58.213.99 google -->
-<g id="edge22" class="edge"><title>74.125.52.218&#45;&#45;216.58.213.99 google</title>
+<g id="edge20" class="edge"><title>74.125.52.218&#45;&#45;216.58.213.99 google</title>
 <path fill="none" stroke="black" d="M666.669,-575.876C640.071,-564.988 605.767,-550.945 579.195,-540.068"/>
 </g>
 <!-- youtube.com # youtube -->
@@ -247,13 +235,17 @@
 <g id="edge23" class="edge"><title>74.125.52.218&#45;&#45;youtube.com # youtube</title>
 <path fill="none" stroke="black" d="M708.5,-575.697C708.5,-564.846 708.5,-550.917 708.5,-540.104"/>
 </g>
+<!-- 10.248.28.153&#45;&#45;10.247.84.6 -->
+<g id="edge22" class="edge"><title>10.248.28.153&#45;&#45;10.247.84.6</title>
+<path fill="none" stroke="black" d="M829.421,-935.697C819.966,-924.846 807.827,-910.917 798.405,-900.104"/>
+</g>
 <!-- deanturpin.github.io -->
-<g id="node22" class="node"><title>deanturpin.github.io</title>
+<g id="node23" class="node"><title>deanturpin.github.io</title>
 <path fill="green" stroke="white" d="M420,-324C420,-324 309,-324 309,-324 303,-324 297,-318 297,-312 297,-312 297,-300 297,-300 297,-294 303,-288 309,-288 309,-288 420,-288 420,-288 426,-288 432,-294 432,-300 432,-300 432,-312 432,-312 432,-318 426,-324 420,-324"/>
 <text text-anchor="middle" x="364.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="white">deanturpin.github.io</text>
 </g>
 <!-- 151.101.17.147 -->
-<g id="node24" class="node"><title>151.101.17.147</title>
+<g id="node25" class="node"><title>151.101.17.147</title>
 <path fill="lightgrey" stroke="white" d="M407.5,-396C407.5,-396 321.5,-396 321.5,-396 315.5,-396 309.5,-390 309.5,-384 309.5,-384 309.5,-372 309.5,-372 309.5,-366 315.5,-360 321.5,-360 321.5,-360 407.5,-360 407.5,-360 413.5,-360 419.5,-366 419.5,-372 419.5,-372 419.5,-384 419.5,-384 419.5,-390 413.5,-396 407.5,-396"/>
 <text text-anchor="middle" x="364.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00">151.101.17.147</text>
 </g>
@@ -266,13 +258,9 @@
 <path fill="none" stroke="black" d="M364.5,-359.697C364.5,-348.846 364.5,-334.917 364.5,-324.104"/>
 </g>
 <!-- thebunker.net -->
-<g id="node25" class="node"><title>thebunker.net</title>
-<path fill="green" stroke="white" d="M671,-324C671,-324 596,-324 596,-324 590,-324 584,-318 584,-312 584,-312 584,-300 584,-300 584,-294 590,-288 596,-288 596,-288 671,-288 671,-288 677,-288 683,-294 683,-300 683,-300 683,-312 683,-312 683,-318 677,-324 671,-324"/>
-<text text-anchor="middle" x="633.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="white">thebunker.net</text>
-</g>
-<!-- 10.248.28.145&#45;&#45;10.247.84.6 -->
-<g id="edge28" class="edge"><title>10.248.28.145&#45;&#45;10.247.84.6</title>
-<path fill="none" stroke="black" d="M829.421,-935.697C819.966,-924.846 807.827,-910.917 798.405,-900.104"/>
+<g id="node26" class="node"><title>thebunker.net</title>
+<path fill="green" stroke="white" d="M558,-324C558,-324 483,-324 483,-324 477,-324 471,-318 471,-312 471,-312 471,-300 471,-300 471,-294 477,-288 483,-288 483,-288 558,-288 558,-288 564,-288 570,-294 570,-300 570,-300 570,-312 570,-312 570,-318 564,-324 558,-324"/>
+<text text-anchor="middle" x="520.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="white">thebunker.net</text>
 </g>
 <!-- linx1.orbital.net -->
 <g id="node28" class="node"><title>linx1.orbital.net</title>
@@ -280,7 +268,7 @@
 <text text-anchor="middle" x="858.5" y="-518.3" font-family="Helvetica,sans-Serif" font-size="14.00">linx1.orbital.net</text>
 </g>
 <!-- 87.237.20.33&#45;&#45;linx1.orbital.net -->
-<g id="edge30" class="edge"><title>87.237.20.33&#45;&#45;linx1.orbital.net</title>
+<g id="edge28" class="edge"><title>87.237.20.33&#45;&#45;linx1.orbital.net</title>
 <path fill="none" stroke="black" d="M858.5,-575.697C858.5,-564.846 858.5,-550.917 858.5,-540.104"/>
 </g>
 <!-- 195.66.225.215 -->
@@ -289,7 +277,7 @@
 <text text-anchor="middle" x="998.5" y="-518.3" font-family="Helvetica,sans-Serif" font-size="14.00">195.66.225.215</text>
 </g>
 <!-- 87.237.20.33&#45;&#45;195.66.225.215 -->
-<g id="edge37" class="edge"><title>87.237.20.33&#45;&#45;195.66.225.215</title>
+<g id="edge36" class="edge"><title>87.237.20.33&#45;&#45;195.66.225.215</title>
 <path fill="none" stroke="black" d="M892.748,-575.876C914.443,-565.029 942.4,-551.05 964.12,-540.19"/>
 </g>
 <!-- xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa -->
@@ -298,48 +286,52 @@
 <text text-anchor="middle" x="695.5" y="-446.3" font-family="Helvetica,sans-Serif" font-size="14.00">xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa</text>
 </g>
 <!-- linx1.orbital.net&#45;&#45;xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa -->
-<g id="edge31" class="edge"><title>linx1.orbital.net&#45;&#45;xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa</title>
+<g id="edge29" class="edge"><title>linx1.orbital.net&#45;&#45;xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa</title>
 <path fill="none" stroke="black" d="M818.626,-503.876C793.273,-492.988 760.573,-478.945 735.245,-468.068"/>
 </g>
 <!-- 213.129.78.90 -->
 <g id="node30" class="node"><title>213.129.78.90</title>
-<path fill="lightgrey" stroke="white" d="M673,-396C673,-396 594,-396 594,-396 588,-396 582,-390 582,-384 582,-384 582,-372 582,-372 582,-366 588,-360 594,-360 594,-360 673,-360 673,-360 679,-360 685,-366 685,-372 685,-372 685,-384 685,-384 685,-390 679,-396 673,-396"/>
-<text text-anchor="middle" x="633.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00">213.129.78.90</text>
+<path fill="lightgrey" stroke="white" d="M560,-396C560,-396 481,-396 481,-396 475,-396 469,-390 469,-384 469,-384 469,-372 469,-372 469,-366 475,-360 481,-360 481,-360 560,-360 560,-360 566,-360 572,-366 572,-372 572,-372 572,-384 572,-384 572,-390 566,-396 560,-396"/>
+<text text-anchor="middle" x="520.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00">213.129.78.90</text>
 </g>
 <!-- xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;213.129.78.90 -->
-<g id="edge32" class="edge"><title>xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;213.129.78.90</title>
-<path fill="none" stroke="black" d="M680.174,-431.697C670.564,-420.846 658.226,-406.917 648.65,-396.104"/>
-</g>
-<!-- 213.129.70.253 -->
-<g id="node32" class="node"><title>213.129.70.253</title>
-<path fill="lightgrey" stroke="white" d="M801.5,-396C801.5,-396 715.5,-396 715.5,-396 709.5,-396 703.5,-390 703.5,-384 703.5,-384 703.5,-372 703.5,-372 703.5,-366 709.5,-360 715.5,-360 715.5,-360 801.5,-360 801.5,-360 807.5,-360 813.5,-366 813.5,-372 813.5,-372 813.5,-384 813.5,-384 813.5,-390 807.5,-396 801.5,-396"/>
-<text text-anchor="middle" x="758.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00">213.129.70.253</text>
-</g>
-<!-- xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;213.129.70.253 -->
-<g id="edge34" class="edge"><title>xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;213.129.70.253</title>
-<path fill="none" stroke="black" d="M711.073,-431.697C720.838,-420.846 733.375,-406.917 743.106,-396.104"/>
-</g>
-<!-- 213.129.78.90&#45;&#45;thebunker.net -->
-<g id="edge33" class="edge"><title>213.129.78.90&#45;&#45;thebunker.net</title>
-<path fill="none" stroke="black" d="M633.5,-359.697C633.5,-348.846 633.5,-334.917 633.5,-324.104"/>
+<g id="edge30" class="edge"><title>xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;213.129.78.90</title>
+<path fill="none" stroke="black" d="M652.69,-431.876C625.47,-420.988 590.364,-406.945 563.171,-396.068"/>
 </g>
 <!-- infinityfoods.coop -->
 <g id="node31" class="node"><title>infinityfoods.coop</title>
-<path fill="green" stroke="white" d="M807,-252C807,-252 710,-252 710,-252 704,-252 698,-246 698,-240 698,-240 698,-228 698,-228 698,-222 704,-216 710,-216 710,-216 807,-216 807,-216 813,-216 819,-222 819,-228 819,-228 819,-240 819,-240 819,-246 813,-252 807,-252"/>
-<text text-anchor="middle" x="758.5" y="-230.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="white">infinityfoods.coop</text>
+<path fill="green" stroke="white" d="M699,-396C699,-396 602,-396 602,-396 596,-396 590,-390 590,-384 590,-384 590,-372 590,-372 590,-366 596,-360 602,-360 602,-360 699,-360 699,-360 705,-360 711,-366 711,-372 711,-372 711,-384 711,-384 711,-390 705,-396 699,-396"/>
+<text text-anchor="middle" x="650.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="white">infinityfoods.coop</text>
+</g>
+<!-- xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;infinityfoods.coop -->
+<g id="edge35" class="edge"><title>xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;infinityfoods.coop</title>
+<path fill="none" stroke="black" d="M684.376,-431.697C677.401,-420.846 668.446,-406.917 661.496,-396.104"/>
+</g>
+<!-- 213.129.70.253 -->
+<g id="node32" class="node"><title>213.129.70.253</title>
+<path fill="lightgrey" stroke="white" d="M827.5,-396C827.5,-396 741.5,-396 741.5,-396 735.5,-396 729.5,-390 729.5,-384 729.5,-384 729.5,-372 729.5,-372 729.5,-366 735.5,-360 741.5,-360 741.5,-360 827.5,-360 827.5,-360 833.5,-360 839.5,-366 839.5,-372 839.5,-372 839.5,-384 839.5,-384 839.5,-390 833.5,-396 827.5,-396"/>
+<text text-anchor="middle" x="784.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00">213.129.70.253</text>
+</g>
+<!-- xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;213.129.70.253 -->
+<g id="edge32" class="edge"><title>xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa&#45;&#45;213.129.70.253</title>
+<path fill="none" stroke="black" d="M717.5,-431.697C731.295,-420.846 749.006,-406.917 762.753,-396.104"/>
+</g>
+<!-- 213.129.78.90&#45;&#45;thebunker.net -->
+<g id="edge31" class="edge"><title>213.129.78.90&#45;&#45;thebunker.net</title>
+<path fill="none" stroke="black" d="M520.5,-359.697C520.5,-348.846 520.5,-334.917 520.5,-324.104"/>
 </g>
 <!-- 213.129.70.237 -->
 <g id="node33" class="node"><title>213.129.70.237</title>
-<path fill="lightgrey" stroke="white" d="M801.5,-324C801.5,-324 715.5,-324 715.5,-324 709.5,-324 703.5,-318 703.5,-312 703.5,-312 703.5,-300 703.5,-300 703.5,-294 709.5,-288 715.5,-288 715.5,-288 801.5,-288 801.5,-288 807.5,-288 813.5,-294 813.5,-300 813.5,-300 813.5,-312 813.5,-312 813.5,-318 807.5,-324 801.5,-324"/>
-<text text-anchor="middle" x="758.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00">213.129.70.237</text>
+<path fill="lightgrey" stroke="white" d="M855.5,-324C855.5,-324 769.5,-324 769.5,-324 763.5,-324 757.5,-318 757.5,-312 757.5,-312 757.5,-300 757.5,-300 757.5,-294 763.5,-288 769.5,-288 769.5,-288 855.5,-288 855.5,-288 861.5,-288 867.5,-294 867.5,-300 867.5,-300 867.5,-312 867.5,-312 867.5,-318 861.5,-324 855.5,-324"/>
+<text text-anchor="middle" x="812.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00">213.129.70.237</text>
 </g>
 <!-- 213.129.70.253&#45;&#45;213.129.70.237 -->
-<g id="edge35" class="edge"><title>213.129.70.253&#45;&#45;213.129.70.237</title>
-<path fill="none" stroke="black" d="M758.5,-359.697C758.5,-348.846 758.5,-334.917 758.5,-324.104"/>
+<g id="edge33" class="edge"><title>213.129.70.253&#45;&#45;213.129.70.237</title>
+<path fill="none" stroke="black" d="M791.421,-359.697C795.761,-348.846 801.333,-334.917 805.658,-324.104"/>
 </g>
-<!-- 213.129.70.237&#45;&#45;infinityfoods.coop -->
-<g id="edge36" class="edge"><title>213.129.70.237&#45;&#45;infinityfoods.coop</title>
-<path fill="none" stroke="black" d="M758.5,-287.697C758.5,-276.846 758.5,-262.917 758.5,-252.104"/>
+<!-- 213.129.70.237&#45;&#45;xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa -->
+<g id="edge34" class="edge"><title>213.129.70.237&#45;&#45;xe2&#45;2&#45;ve&#45;83.thn&#45;pe&#45;2.thn.thebunker.net.202.88.80.in&#45;addr.arpa</title>
+<path fill="none" stroke="black" d="M828.959,-324.25C844.884,-343.1 864.449,-373.596 848.5,-396 836.68,-412.603 819.284,-424.053 800.418,-431.937"/>
 </g>
 <!-- silobrighton.com # zero waste -->
 <g id="node34" class="node"><title>silobrighton.com # zero waste</title>
@@ -352,7 +344,7 @@
 <text text-anchor="middle" x="1012.5" y="-446.3" font-family="Helvetica,sans-Serif" font-size="14.00">4d&#45;lgw&#45;bbr&#45;2&#45;0002&#45;6.4d&#45;dc.com</text>
 </g>
 <!-- 195.66.225.215&#45;&#45;4d&#45;lgw&#45;bbr&#45;2&#45;0002&#45;6.4d&#45;dc.com -->
-<g id="edge38" class="edge"><title>195.66.225.215&#45;&#45;4d&#45;lgw&#45;bbr&#45;2&#45;0002&#45;6.4d&#45;dc.com</title>
+<g id="edge37" class="edge"><title>195.66.225.215&#45;&#45;4d&#45;lgw&#45;bbr&#45;2&#45;0002&#45;6.4d&#45;dc.com</title>
 <path fill="none" stroke="black" d="M1001.96,-503.697C1004.13,-492.846 1006.92,-478.917 1009.08,-468.104"/>
 </g>
 <!-- 4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com -->
@@ -361,11 +353,11 @@
 <text text-anchor="middle" x="1012.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00">4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com</text>
 </g>
 <!-- 4d&#45;lgw&#45;bbr&#45;2&#45;0002&#45;6.4d&#45;dc.com&#45;&#45;4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com -->
-<g id="edge39" class="edge"><title>4d&#45;lgw&#45;bbr&#45;2&#45;0002&#45;6.4d&#45;dc.com&#45;&#45;4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com</title>
+<g id="edge38" class="edge"><title>4d&#45;lgw&#45;bbr&#45;2&#45;0002&#45;6.4d&#45;dc.com&#45;&#45;4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com</title>
 <path fill="none" stroke="black" d="M1012.5,-431.697C1012.5,-420.846 1012.5,-406.917 1012.5,-396.104"/>
 </g>
 <!-- 4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com&#45;&#45;silobrighton.com # zero waste -->
-<g id="edge40" class="edge"><title>4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com&#45;&#45;silobrighton.com # zero waste</title>
+<g id="edge39" class="edge"><title>4d&#45;lgw&#45;men&#45;2&#45;024.4d&#45;dc.com&#45;&#45;silobrighton.com # zero waste</title>
 <path fill="none" stroke="black" d="M1012.5,-359.697C1012.5,-348.846 1012.5,-334.917 1012.5,-324.104"/>
 </g>
 <!-- rate.sx # curl for bitcoin rates -->
@@ -379,7 +371,7 @@
 <text text-anchor="middle" x="1220.5" y="-518.3" font-family="Helvetica,sans-Serif" font-size="14.00">ae1&#45;2014.nbg40.core&#45;backbone.com</text>
 </g>
 <!-- ae1&#45;0.lon10.core&#45;backbone.com&#45;&#45;ae1&#45;2014.nbg40.core&#45;backbone.com -->
-<g id="edge43" class="edge"><title>ae1&#45;0.lon10.core&#45;backbone.com&#45;&#45;ae1&#45;2014.nbg40.core&#45;backbone.com</title>
+<g id="edge41" class="edge"><title>ae1&#45;0.lon10.core&#45;backbone.com&#45;&#45;ae1&#45;2014.nbg40.core&#45;backbone.com</title>
 <path fill="none" stroke="black" d="M1132.12,-575.876C1150.25,-565.029 1173.62,-551.05 1191.77,-540.19"/>
 </g>
 <!-- core&#45;backbone&#45;100g&#45;nbg.hetzner.de -->
@@ -388,7 +380,7 @@
 <text text-anchor="middle" x="1251.5" y="-446.3" font-family="Helvetica,sans-Serif" font-size="14.00">core&#45;backbone&#45;100g&#45;nbg.hetzner.de</text>
 </g>
 <!-- ae1&#45;2014.nbg40.core&#45;backbone.com&#45;&#45;core&#45;backbone&#45;100g&#45;nbg.hetzner.de -->
-<g id="edge44" class="edge"><title>ae1&#45;2014.nbg40.core&#45;backbone.com&#45;&#45;core&#45;backbone&#45;100g&#45;nbg.hetzner.de</title>
+<g id="edge42" class="edge"><title>ae1&#45;2014.nbg40.core&#45;backbone.com&#45;&#45;core&#45;backbone&#45;100g&#45;nbg.hetzner.de</title>
 <path fill="none" stroke="black" d="M1228.16,-503.697C1232.97,-492.846 1239.14,-478.917 1243.93,-468.104"/>
 </g>
 <!-- core12.nbg1.hetzner.com -->
@@ -397,16 +389,16 @@
 <text text-anchor="middle" x="1251.5" y="-374.3" font-family="Helvetica,sans-Serif" font-size="14.00">core12.nbg1.hetzner.com</text>
 </g>
 <!-- core&#45;backbone&#45;100g&#45;nbg.hetzner.de&#45;&#45;core12.nbg1.hetzner.com -->
-<g id="edge45" class="edge"><title>core&#45;backbone&#45;100g&#45;nbg.hetzner.de&#45;&#45;core12.nbg1.hetzner.com</title>
+<g id="edge43" class="edge"><title>core&#45;backbone&#45;100g&#45;nbg.hetzner.de&#45;&#45;core12.nbg1.hetzner.com</title>
 <path fill="none" stroke="black" d="M1251.5,-431.697C1251.5,-420.846 1251.5,-406.917 1251.5,-396.104"/>
 </g>
-<!-- core24.fsn1.hetzner.com -->
-<g id="node43" class="node"><title>core24.fsn1.hetzner.com</title>
+<!-- core23.fsn1.hetzner.com -->
+<g id="node43" class="node"><title>core23.fsn1.hetzner.com</title>
 <path fill="lightgrey" stroke="white" d="M1322.5,-324C1322.5,-324 1180.5,-324 1180.5,-324 1174.5,-324 1168.5,-318 1168.5,-312 1168.5,-312 1168.5,-300 1168.5,-300 1168.5,-294 1174.5,-288 1180.5,-288 1180.5,-288 1322.5,-288 1322.5,-288 1328.5,-288 1334.5,-294 1334.5,-300 1334.5,-300 1334.5,-312 1334.5,-312 1334.5,-318 1328.5,-324 1322.5,-324"/>
-<text text-anchor="middle" x="1251.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00">core24.fsn1.hetzner.com</text>
+<text text-anchor="middle" x="1251.5" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00">core23.fsn1.hetzner.com</text>
 </g>
-<!-- core12.nbg1.hetzner.com&#45;&#45;core24.fsn1.hetzner.com -->
-<g id="edge46" class="edge"><title>core12.nbg1.hetzner.com&#45;&#45;core24.fsn1.hetzner.com</title>
+<!-- core12.nbg1.hetzner.com&#45;&#45;core23.fsn1.hetzner.com -->
+<g id="edge44" class="edge"><title>core12.nbg1.hetzner.com&#45;&#45;core23.fsn1.hetzner.com</title>
 <path fill="none" stroke="black" d="M1251.5,-359.697C1251.5,-348.846 1251.5,-334.917 1251.5,-324.104"/>
 </g>
 <!-- ex9k1.dc7.fsn1.hetzner.com -->
@@ -414,8 +406,8 @@
 <path fill="lightgrey" stroke="white" d="M1332.5,-252C1332.5,-252 1170.5,-252 1170.5,-252 1164.5,-252 1158.5,-246 1158.5,-240 1158.5,-240 1158.5,-228 1158.5,-228 1158.5,-222 1164.5,-216 1170.5,-216 1170.5,-216 1332.5,-216 1332.5,-216 1338.5,-216 1344.5,-222 1344.5,-228 1344.5,-228 1344.5,-240 1344.5,-240 1344.5,-246 1338.5,-252 1332.5,-252"/>
 <text text-anchor="middle" x="1251.5" y="-230.3" font-family="Helvetica,sans-Serif" font-size="14.00">ex9k1.dc7.fsn1.hetzner.com</text>
 </g>
-<!-- core24.fsn1.hetzner.com&#45;&#45;ex9k1.dc7.fsn1.hetzner.com -->
-<g id="edge47" class="edge"><title>core24.fsn1.hetzner.com&#45;&#45;ex9k1.dc7.fsn1.hetzner.com</title>
+<!-- core23.fsn1.hetzner.com&#45;&#45;ex9k1.dc7.fsn1.hetzner.com -->
+<g id="edge45" class="edge"><title>core23.fsn1.hetzner.com&#45;&#45;ex9k1.dc7.fsn1.hetzner.com</title>
 <path fill="none" stroke="black" d="M1251.5,-287.697C1251.5,-276.846 1251.5,-262.917 1251.5,-252.104"/>
 </g>
 <!-- static.118.29.9.5.clients.your&#45;server.de -->
@@ -424,7 +416,7 @@
 <text text-anchor="middle" x="1251.5" y="-158.3" font-family="Helvetica,sans-Serif" font-size="14.00">static.118.29.9.5.clients.your&#45;server.de</text>
 </g>
 <!-- ex9k1.dc7.fsn1.hetzner.com&#45;&#45;static.118.29.9.5.clients.your&#45;server.de -->
-<g id="edge48" class="edge"><title>ex9k1.dc7.fsn1.hetzner.com&#45;&#45;static.118.29.9.5.clients.your&#45;server.de</title>
+<g id="edge46" class="edge"><title>ex9k1.dc7.fsn1.hetzner.com&#45;&#45;static.118.29.9.5.clients.your&#45;server.de</title>
 <path fill="none" stroke="black" d="M1251.5,-215.697C1251.5,-204.846 1251.5,-190.917 1251.5,-180.104"/>
 </g>
 <!-- cheat.sh -->
@@ -433,11 +425,11 @@
 <text text-anchor="middle" x="1251.5" y="-86.3" font-family="Helvetica,sans-Serif" font-size="14.00">cheat.sh</text>
 </g>
 <!-- static.118.29.9.5.clients.your&#45;server.de&#45;&#45;cheat.sh -->
-<g id="edge49" class="edge"><title>static.118.29.9.5.clients.your&#45;server.de&#45;&#45;cheat.sh</title>
+<g id="edge47" class="edge"><title>static.118.29.9.5.clients.your&#45;server.de&#45;&#45;cheat.sh</title>
 <path fill="none" stroke="black" d="M1251.5,-143.697C1251.5,-132.846 1251.5,-118.917 1251.5,-108.104"/>
 </g>
 <!-- cheat.sh&#45;&#45;rate.sx # curl for bitcoin rates -->
-<g id="edge50" class="edge"><title>cheat.sh&#45;&#45;rate.sx # curl for bitcoin rates</title>
+<g id="edge48" class="edge"><title>cheat.sh&#45;&#45;rate.sx # curl for bitcoin rates</title>
 <path fill="none" stroke="black" d="M1251.5,-71.6966C1251.5,-60.8463 1251.5,-46.9167 1251.5,-36.1043"/>
 </g>
 </g>

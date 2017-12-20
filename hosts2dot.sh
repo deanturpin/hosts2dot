@@ -5,7 +5,7 @@ cat <<!
 strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
-soy_yo [label=$(hostname)]
+soy_yo [label="$(hostname)"]
 graph [label="$0 - $(date)" labelloc=top labeljust=left]
 !
 
