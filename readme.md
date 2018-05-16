@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.org/deanturpin/hosts2dot.svg?branch=master)](https://travis-ci.org/deanturpin/hosts2dot)
+
 The script takes a hosts file on stdin and generates a dot format
 network topology of all the IPs encountered on the way. The dot renderer is then
 run by ```make``` to create the SVG.
