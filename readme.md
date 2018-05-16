@@ -13,6 +13,8 @@ View the SVG in a web browser
 $ firefox topology.svg
 ```
 
+See the [full resolution file](topology.svg).
+
 ![](topology.svg)
 
 Test it with a single host using the triple chevron syntax.
