@@ -1,5 +1,6 @@
 language: bash
 script: make
+install: sudo apt install graphviz
 deploy:
   provider: pages
   github-token: ${api_key}
