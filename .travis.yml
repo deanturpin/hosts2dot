@@ -1,9 +1,5 @@
 language: bash
-
-script:
-  - make
-  - bash <(curl -s https://codecov.io/bash)
-
+script: make
 deploy:
   provider: pages
   github-token: ${api_key}
