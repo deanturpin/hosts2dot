@@ -1,15 +1,17 @@
 127.0.0.1 localhost # for local people
 192.30.253.113 -- github
-216.58.213.99 google
+google.com # Google
+google.co.uk # Google UK
+google.in # Google India
 youtube.com # youtube
-thebunker.net
 infinityfoods.coop # Good food
 silobrighton.com # Zero waste
-rate.sx # curl for bitcoin rates
+hisbe.co.uk # Zero packaging
+rate.sx # Command line crypto ticker
 66.39.50.36 # Pair Networks
 pairserver.com # A Pair server
-travis-ci.org # Travis CI (org)
-travis-ci.com # Travis CI (com)
+travis-ci.org # Travis CI
+travis-ci.com # Travis CI Pro
 deanturpin.github.io # My top level GitHub Page
 www.cryptocompare.com # CC
 min-api.cryptocompare.com # CC API
@@ -17,3 +19,8 @@ travis-ci.org # Open
 travis-ci.com # Pro
 codecov.io # Got it covered
 fixer.io # Fiat currencies
+fnxweb.com # Lair of The Phoenix
+americanexpress.com
+monzo.com
+barclays.co.uk
+lloydsbank.com
