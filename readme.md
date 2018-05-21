@@ -28,9 +28,10 @@ only cares about the first host or IP on a line, the whole line is used to name
 the leaf node. In fact, any file format may be used as long as each line begins
 with something that can be pinged.
 
-```
+```bash
 127.0.0.1 localhost # for local people
 216.58.213.99 - google
+silobrighton.com # Zero waste
 ```
 
 At work I run it as a Jenkins nightly and the hosts file is a list of things I'm
