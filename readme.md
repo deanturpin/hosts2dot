@@ -10,9 +10,7 @@ View the SVG in a web browser.
 $ firefox topology.svg
 ```
 
-See the [full resolution file](topology.svg).
-
-![](topology.svg)
+[![](topology.svg)](topology.svg)
 
 Test the script with a single host using the triple chevron syntax.
 ```bash
