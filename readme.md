@@ -33,7 +33,6 @@ At work I run it as a Jenkins nightly and the hosts file is a list of things I'm
 interested in on the company Intranet.
 
 # Dependencies
-dot
 ```
 sudo apt install graphviz
 ```
