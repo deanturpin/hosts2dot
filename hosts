@@ -1,15 +1,12 @@
 127.0.0.1 localhost # for local people
 192.30.253.113 -- github
-google.com # Google
-google.co.uk # Google UK
-google.in # Google India
-youtube.com # youtube
+duckduckgo.com
+google.com
 infinityfoods.coop # Good food
 silobrighton.com # Zero waste
 hisbe.co.uk # Zero packaging
 rate.sx # Command line crypto ticker
 66.39.50.36 # Pair Networks
-pairserver.com # A Pair server
 travis-ci.org # Travis CI
 travis-ci.com # Travis CI Pro
 deanturpin.github.io # My top level GitHub Page
@@ -19,7 +16,4 @@ codecov.io # Got it covered
 fixer.io # Fiat currencies
 fnxweb.com # Lair of The Phoenix
 tomahawktechnology.com
-www.conservatives.com
-labour.org.uk
 greenparty.org.uk
-libdems.org.uk
