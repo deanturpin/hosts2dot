@@ -1,5 +1,6 @@
 127.0.0.1 localhost # for local people
 192.30.253.113 -- github
+deanturpin.github.io # My top level GitHub Page
 duckduckgo.com
 google.com
 infinityfoods.coop # Good food
@@ -9,7 +10,6 @@ rate.sx # Command line crypto ticker
 66.39.50.36 # Pair Networks
 travis-ci.org # Travis CI
 travis-ci.com # Travis CI Pro
-deanturpin.github.io # My top level GitHub Page
 www.cryptocompare.com # CC
 min-api.cryptocompare.com # CC API
 codecov.io # Got it covered
@@ -17,3 +17,4 @@ fixer.io # Fiat currencies
 fnxweb.com # Lair of The Phoenix
 tomahawktechnology.com
 greenparty.org.uk
+cirrus.com
