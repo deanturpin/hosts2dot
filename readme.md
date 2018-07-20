@@ -18,9 +18,9 @@ $ ./hosts2dot.sh <<< github.com
 ```
 
 # Hosts file format
-The script accepts a standard system hosts file format but actually the script
-actually only cares about the first host or IP on a line, the whole line is used
-to name the leaf node. In fact, any file format may be used as long as each line
+The script accepts a standard system hosts file format but actually it only cares 
+about the first host or IP on a line; the whole line is used
+to name the leaf node. In fact any file format may be used as long as each line
 begins with something that can be pinged.
 
 ```bash
