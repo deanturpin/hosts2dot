@@ -1,7 +1,7 @@
 [![Build
 Status](https://travis-ci.org/deanturpin/hosts2dot.svg?branch=master)](https://travis-ci.org/deanturpin/hosts2dot)
 
-Pure bash script that takes a hosts file on stdin and generates a dot format
+Pure bash script that takes a hosts file on stdin, pings each host and generates a dot format
 network topology of all the IPs encountered on the way. Edit ```hosts``` and
 then run ```make``` to generate an SVG of key nodes in your netork.
 
