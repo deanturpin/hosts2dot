@@ -28,11 +28,3 @@ begins with something that can be pinged.
 216.58.213.99 - google
 silobrighton.com # Zero waste
 ```
-
-At work I run it as a Jenkins nightly and the hosts file is a list of things I'm
-interested in on the company Intranet.
-
-# Dependencies
-```
-sudo apt install graphviz
-```
