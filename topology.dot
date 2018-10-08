@@ -1,26 +1,48 @@
 strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
-soy_yo [label="dev"]
-graph [label="./hosts2dot.sh - Sat 13 Jan 13:25:00 GMT 2018" labelloc=top labeljust=left]
+soy_yo [label="ken"]
+graph [label="./hosts2dot.sh - Sun  7 Oct 12:16:18 BST 2018" labelloc=top labeljust=left]
 "127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
 soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
 "192.30.253.113 -- github" [fillcolor=green fontcolor=white]
-soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"ae-3.r02.londen03.uk.bb.gin.ntt.net"--"ae-3.r24.londen12.uk.bb.gin.ntt.net"--"ae-5.r24.nycmny01.us.bb.gin.ntt.net"--"ae-1.r25.nycmny01.us.bb.gin.ntt.net"--"ae-9.r22.asbnva02.us.bb.gin.ntt.net"--"ae-7.r06.asbnva02.us.bb.gin.ntt.net"--"ae-1.a01.asbnva02.us.bb.gin.ntt.net"--"192.30.253.113 -- github"
-"216.58.213.99 google" [fillcolor=green fontcolor=white]
-soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"72.14.203.194"--"216.58.213.99 google"
-"youtube.com # youtube" [fillcolor=green fontcolor=white]
-soy_yo--"2a02:c7f:700c:bd00::1"--"2a02:c7f:700c:bd00::1"--"2001:4860:1:1::22a"--"lhr35s10-in-x0e.1e100.net"--"youtube.com # youtube"
-"deanturpin.github.io" [fillcolor=green fontcolor=white]
-soy_yo--"2a02:c7f:700c:bd00::1"--"2a02:c7f:700c:bd00::1"--"ae-3.r02.londen03.uk.bb.gin.ntt.net"--"ae-3.r02.londen03.uk.bb.gin.ntt.net"--"ae-5.r25.londen12.uk.bb.gin.ntt.net"--"ae-2.r02.londen01.uk.bb.gin.ntt.net"--"2a02:c79:2::331"--"deanturpin.github.io"
-"thebunker.net" [fillcolor=green fontcolor=white]
-soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"lonap1.orbital.net"--"v900.thn-br1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"tbsh.1369.cr-0.ash.thebunker.net"--"thebunker.net"
-"infinityfoods.coop" [fillcolor=green fontcolor=white]
-soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"lonap1.orbital.net"--"v900.thn-br1.orbital.net"--"xe2-2-ve-83.thn-pe-2.thn.thebunker.net.202.88.80.in-addr.arpa"--"213.129.70.253"--"213.129.70.237"--"infinityfoods.coop"
-"silobrighton.com # zero waste" [fillcolor=red fontcolor=white]
-soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"4d-dc-gw-b.lonap.net"--"4d-lgw-bbr-2-0002-6.4d-dc.com"--"4d-lgw-bbr-2-0002-6.4d-dc.com"--"4d-lgw-men-2-024.4d-dc.com"--"silobrighton.com # zero waste"
-"rate.sx # curl for bitcoin rates" [fillcolor=green fontcolor=white]
-soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"ae0-406.lon10.core-backbone.com"--"ae1-2014.nbg40.core-backbone.com"--"core-backbone-100g-nbg.hetzner.de"--"core11.nbg1.hetzner.com"--"core24.fsn1.hetzner.com"--"ex9k1.dc7.fsn1.hetzner.com"--"b6.xgu.ru"--"cheat.sh"--"rate.sx # curl for bitcoin rates"
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"ae-2-4.bear2.Washington111.Level3.net"--"192.30.253.113 -- github"
+"deanturpin.github.io # My top level GitHub Page" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"deanturpin.github.io # My top level GitHub Page"
+"duckduckgo.com" [fillcolor=red fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"027ff191.bb.sky.com"--"54.239.100.230"--"54.239.101.17"--"54.239.44.150"--"52.93.6.136"--"52.93.101.17"--"52.93.101.24"--"52.93.7.53"--"duckduckgo.com"
+"google.com" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"72.14.203.194"--"97e7fe2a.skybroadband.com"--"google.com"
+"infinityfoods.coop # Good food" [fillcolor=green fontcolor=white]
+soy_yo--"2a02:c7f:700c:bd00::1"--"2a02:c7f:700c:bd00::1"--"infinityfoods.coop # Good food"
+"silobrighton.com # Zero waste" [fillcolor=red fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"4d-dc-gw-b.lonap.net"--"4d-lgw-bbr-2-0002-6.4d-dc.com"--"4d-lgw-bbr-2-0002-6.4d-dc.com"--"4d-lgw-men-2-024.4d-dc.com"--"silobrighton.com # Zero waste"
+"hisbe.co.uk # Zero packaging" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"hisbe.co.uk # Zero packaging"
+"rate.sx # Command line crypto ticker" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"ae0-406.lon10.core-backbone.com"--"ae2-2077.fra20.core-backbone.com"--"core-backbone.hetzner.com"--"core24.fsn1.hetzner.com"--"ex9k1.dc7.fsn1.hetzner.com"--"b6.xgu.ru"--"cheat.sh"--"rate.sx # Command line crypto ticker"
 "66.39.50.36 # Pair Networks" [fillcolor=green fontcolor=white]
-soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"GIGLINX-INC.bear1.Pittsburgh3.Level3.net"--"www3.g17.pair.com"--"66.39.50.36 # Pair Networks"
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"ae3.cr11-lon1.ip4.gtt.net"--"xe-1-0-0.cr0-pit1.ip4.gtt.net"--"ip4.gtt.net"--"www3.g17.pair.com"--"66.39.50.36 # Pair Networks"
+"travis-ci.org # Travis CI" [fillcolor=red fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"AMAZON.COM.edge2.Washington1.Level3.net"--"54.239.110.205"--"52.93.26.82"--"52.93.27.221"--"72.21.197.237"--"travis-ci.org # Travis CI"
+"travis-ci.com # Travis CI Pro" [fillcolor=red fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"AMAZON.COM.edge2.Washington1.Level3.net"--"54.239.110.207"--"54.239.111.91"--"52.93.27.221"--"52.93.24.159"--"travis-ci.com # Travis CI Pro"
+"www.cryptocompare.com # CC" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"www.cryptocompare.com # CC"
+"min-api.cryptocompare.com # CC API" [fillcolor=red fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"ae38-0.lon04-96cbe-1b.ntwk.msn.net"--"be-62-0.ibr01.lon30.ntwk.msn.net"--"be-2-0.ibr01.lts.ntwk.msn.net"--"be-5-0.ibr01.amb.ntwk.msn.net"--"be-1-0.ibr02.amb.ntwk.msn.net"--"be-2-0.ibr02.ams06.ntwk.msn.net"--"ae121-0.icr01.ams06.ntwk.msn.net"--"min-api.cryptocompare.com # CC API"
+"codecov.io # Got it covered" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"74.125.49.150"--"74.125.242.114"--"74.125.242.83"--"209.85.250.185"--"108.170.236.33"--"108.170.235.156"--"108.170.246.65"--"108.170.238.167"--"247.43.199.35.bc.googleusercontent.com"--"codecov.io # Got it covered"
+"fixer.io # Fiat currencies" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"bbr02.lon01.networklayer.com"--"ae5.cbs01.tg01.lon01.networklayer.com"--"ae1.cbs02.tl01.nyc01.networklayer.com"--"ae0.cbs01.eq01.chi01.networklayer.com"--"ae7.cbs02.eq01.chi01.networklayer.com"--"ae0.cbs02.cs01.den01.networklayer.com"--"ae1.cbs01.eq01.sjc02.networklayer.com"--"ae23.bbr02.eq01.sjc02.networklayer.com"--"ae6.dar01.sjc01.networklayer.com"--"po2.fcr02.sr02.sjc01.networklayer.com"--"2.f3.f617.ip4.static.sl-reverse.com"--"fixer.io # Fiat currencies"
+"fnxweb.com # Lair of The Phoenix" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"ge-3-3-0.mpr1.lhr3.uk.above.net"--"ae6.mpr3.lhr3.uk.zip.zayo.com"--"ae7.mpr1.lhr8.uk.zip.zayo.com"--"te-0-0-0-3.cr01.thm-lon.pulsant.net"--"te-0-0-0-0.cr02.dc2-mhd.pulsant.net"--"ge-5-2.ds01.dc1-mhd.pulsant.net"--"fnxweb.com # Lair of The Phoenix"
+"tomahawktechnology.com" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"THE-GO-DADD.ear3.Amsterdam1.Level3.net"--"ip-208-109-115-138.ip.secureserver.net"--"ip-208-109-115-146.ip.secureserver.net"--"ip-208-109-115-142.ip.secureserver.net"--"tomahawktechnology.com"
+"greenparty.org.uk" [fillcolor=green fontcolor=white]
+soy_yo--"2a02:c7f:700c:bd00::1"--"2a02:c7f:700c:bd00::1"--"greenparty.org.uk"
+"glastonbury.seetickets.com" [fillcolor=green fontcolor=white]
+soy_yo--"SkyRouter.Home"--"SkyRouter.Home"--"be331.pr2.bllon.isp.sky.com"--"1-3-2.pr01.thca.uk.exponential-e.net"--"167.98.17.49"--"97e7fe2a.skybroadband.com"--"97e7fe2a.skybroadband.com"--"97e7fe2a.skybroadband.com"--"glastonbury.seetickets.com"
+"" [fillcolor=red fontcolor=white]
+soy_yo--""
 }
