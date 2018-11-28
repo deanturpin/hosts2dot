@@ -1,5 +1,7 @@
-FROM ubuntu
-RUN apt update
-RUN apt install -y git graphviz make iputils-tracepath
-RUN git clone https://github.com/deanturpin/hosts2dot
-CMD make --directory hosts2dot
+FROM alpine
+COPY . /src
+WORKDIR /src
+RUN apk add make
+RUN apk add graphviz
+RUN apk add bash
+RUN apk add iputils
