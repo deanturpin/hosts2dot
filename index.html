@@ -1,0 +1,12 @@
+<p><a href="https://travis-ci.org/deanturpin/hosts2dot"><img src="https://travis-ci.org/deanturpin/hosts2dot.svg?branch=master" alt="Build Status" /></a></p>
+<p>Pure bash script that takes a hosts file on stdin, pings each host and generates a dot format network topology of all the IPs encountered on the way. Edit <code>hosts</code> and then run <code>make</code> to generate an SVG of key nodes in your netork.</p>
+<p>View the SVG in a web browser.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1">$ <span class="ex">firefox</span> topology.svg</a></code></pre></div>
+<p><a href="topology.svg"><img src="topology.svg" /></a></p>
+<p>Test the script with a single host using the triple chevron syntax.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb2-1" title="1">$ <span class="ex">./hosts2dot.sh</span> <span class="op">&lt;&lt;&lt;</span> github.com</a></code></pre></div>
+<h1 id="hosts-file-format">Hosts file format</h1>
+<p>The script accepts a standard system hosts file format but actually it only cares about the first host or IP on a line; the whole line is used to name the leaf node. In fact any file format may be used as long as each line begins with something that can be pinged.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" title="1"><span class="ex">127.0.0.1</span> localhost <span class="co"># for local people</span></a>
+<a class="sourceLine" id="cb3-2" title="2"><span class="ex">216.58.213.99</span> - google</a>
+<a class="sourceLine" id="cb3-3" title="3"><span class="ex">silobrighton.com</span> <span class="co"># Zero waste</span></a></code></pre></div>
